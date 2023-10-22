@@ -11,7 +11,7 @@ Status,
         CLOSED: {label: 'Open', color: 'red'}
 };
 
-const IssueStatusPage = ({status}:{status: Status}) => {
+const IssueStatusBadge = ({status}:{status: Status}) => {
     return (
         <Badge color={statusMap[status].color}>
             {statusMap[status].label}
