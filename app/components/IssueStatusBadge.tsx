@@ -18,3 +18,5 @@ const IssueStatusBadge = ({status}:{status: Status}) => {
         </Badge>
     )
 }
+
+export default IssueStatusBadge
