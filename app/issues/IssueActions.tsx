@@ -4,9 +4,9 @@ import { Button } from '@radix-ui/themes'
 
 const IssueActions = () => {
   return (
-    <div>
+    <div className='mb-5'>
         <Button>
-            <Link href="/Issues/new">New Issue</Link>
+            <Link href="/issues/new">New Issue</Link>
         </Button>
     </div>
   )
